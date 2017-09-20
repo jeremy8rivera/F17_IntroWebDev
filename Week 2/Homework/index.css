@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+#fullRecipe{
+	margin-left: 20px;
+}
+
+#ingredients{
+	float: left;
+}
+
+#recipeSteps{
+	float:left;
+	max-width: 60%;
+	min-width: 300px;
+	padding-right: 10px;
+}
+
+#recipePicture img{
+	margin: auto;
+	display: block;
+}
