@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="template.css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -13,9 +14,37 @@
 
 	<div id="logo-holder"><div id="logo"></div></div>
 	<nav>
-		<a href='#'>Home</a>
-		<a href="#">Filmtography</a>
-		<a href="#">Music</a>
+		<a href='index.html'>Home</a>
+		<div class="dropdown">
+			<div class="filmtography">Filmtography</div>
+			<div class="dropdown-content">
+				<a href="#">Film 1</a>
+				<a href="#">Film 2</a>
+				<a href="#">Film 3</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="music">Music</div>
+			<div class="dropdown-content music-content">
+				<div class="music-content-sub">
+					Mixtapes
+					<a href="#">Sick Boi</a>
+					<a href="#">Poindexter</a>
+					<a href="#">I AM JUST A RAPPER</a>
+					<a href="#">I AM JUST A RAPPER 2</a>
+					<a href="#">Culdesac</a>
+					<a href="#">R O Y A L T Y</a>
+					<a href="#">STN MTN</a>
+				</div>
+
+				<div id="music-content-sub">
+					Albums
+					<a href="album_camp.html">Camp</a>
+					<a href="#">Because the internet</a>
+					<a href="#">"Awaken, My Love!"</a>
+				</div>
+			</div>
+	</div>
 		<a href="#">Store</a>
 	</nav>
 
@@ -23,21 +52,27 @@
 
 		<div class="slideshowInfo fade">
 			<img src="images/atlantaLogo.jpg">
-			<div class="text">Atlanta is an American comedy-drama television series created by and starring Donald Glover. The series is about two cousins navigating their way in the Atlanta rap scene in an effort to improve their lives and the lives of their families. FX ordered the pilot...</div>
+			<div class="text">Atlanta is an American comedy-drama television series created by and starring Donald Glover. The series is about two cousins navigating their way in the Atlanta rap scene in an effort to improve their lives and the lives of their families. FX ordered the pilot... 
+				<a href="#">Read More</a>
+			</div>
 		</div>
 
 		<div class="slideshowInfo fade">
 			<img src="images/Awards.jpg">
-			<div class="text">On Sunday night, show star and creator Donald Glover broke new ground by becoming the first black person to win the best-directing comedy award. The night only picked up from there, with Glover, who was nominated for four categories...</div>
+			<div class="text">On Sunday night, show star and creator Donald Glover broke new ground by becoming the first black person to win the best-directing comedy award. The night only picked up from there, with Glover, who was nominated for four categories...
+				<a href="#">Read More</a>
+			</div>
 		</div>
 
 		<div class="slideshowInfo fade">
 			<img src="images/chanceandglover.jpg">
-			<div class="text">"I think once you do that, things start to get bad and you jump the shark. Also, I feel like if I don't make a Chance the Rapper mixtape, like double mixtape, a bunch of 14 year olds are gonna kick my ass. They stop me on the street; it kind of scares me. So I feel like I gotta do something..."</div>
+			<div class="text">"I think once you do that, things start to get bad and you jump the shark. Also, I feel like if I don't make a Chance the Rapper mixtape, like double mixtape, a bunch of 14 year olds are gonna kick my ass. They stop me on the street; it kind of scares me. So I feel like I gotta do something..."
+				<a href="#">Read More</a>
+			</div>
 		</div>
 	</div>
 
-	<div style="text-align:center">
+	<div class="dotContainer">
 		<span class="dot active" onclick="currentSlide(1)"></span> 
 		<span class="dot" onclick="currentSlide(2)"></span> 
 		<span class="dot" onclick="currentSlide(3)"></span> 

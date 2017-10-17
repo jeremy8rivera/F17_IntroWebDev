@@ -1,59 +1,8 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Droid Serif', serif;
-}
-
-nav a{
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	margin: 15px;
-}
-
-nav a:hover{
-	color: 	#b5ae70;
-}
-
-nav {
-	float: right;
-	font-size: 30px;
-	padding: 15px 50px 15px 0px;
-	background-color: black;
-	clear: both;
-	min-width: 600px;
-	margin-bottom: 20px;
-}
-
-#logo{
-	background-image: url('images/Glover.png');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 60px;
-	width: 275px;
-	margin-bottom: -3.5px;
-
-}
-
-#logo:hover{
-	background-image: url('images/Gambino.png');
-}
-
-#logo-holder{
-	border-bottom: 1px solid black;
-	float: left;
-	margin-top: 35px;
-	clear: both;
-	width: 80%;
-	max-width: 850px;
-	margin-left: 100px;
-	margin-bottom: -1.5px;
-}
-
-
 .slideshow {
   width: 800px;
-  margin: auto;
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-bottom: 2px;
 }
 
 .slideshowInfo:not(:first-of-type){
@@ -69,11 +18,16 @@ nav {
   cursor:pointer;
   height: 13px;
   width: 13px;
-  margin: 0 2px;
+  margin: auto;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+
+.dotContainer{
+	width: 12%;
+	margin: 0 auto;
 }
 
 .fade {
@@ -84,14 +38,18 @@ nav {
 }
 
 .text {
-  position: absolute;
-  top: 520px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: rgba(255,255,255,0.85);
-  height: 68px;
   font-size: 15px;
   width: 800px;
+}
+
+
+.text a{
+	color: blue;
+	font-style: italic;
+}
+
+.text a:hover{
+	text-decoration: underline;
 }
 
 .active, .dot:hover {
