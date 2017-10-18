@@ -1,0 +1,77 @@
+#information-box{
+	width: 25%;
+	min-width: 300px;
+	margin-right: 2%;
+	
+}
+
+#information-box img{
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	border: 1px solid black;
+	margin-bottom: 2px;
+
+}
+
+.center-div-wrapper{
+	margin: 0 auto;
+	width: 60%;
+}
+
+.album-information, #tracklist, #order-tracklist{
+	margin-left: 2%;
+}
+
+.album-information{
+	margin-bottom: 2px;
+}
+
+.content{
+	float: left;
+	box-shadow: 0.5px 1px 2px;
+	background-color: rgba(190, 190, 190, 0.1);
+	border: 1px solid black;
+	margin-bottom: 2%;
+}
+
+#lyrics{
+	width: 35%;
+	min-width: 500px;
+}
+
+#lyrics table{
+	margin-bottom: 2%;
+	margin-left: 1%;
+}
+
+#lyrics p{
+	width: 40%;
+}
+
+#tracklist p{
+	font-weight: bold;
+}
+
+#order-tracklist{
+	width: calc(100%-10px);
+}
+#order-tracklist a {
+	color: blue;
+}
+
+#order-tracklist a:hover{
+	text-decoration: underline;
+}
+
+#order-tracklist li:nth-child(odd){
+	background-color: rgba(155, 155, 155, 0.34);
+}
+
+.content-heading{
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+}
