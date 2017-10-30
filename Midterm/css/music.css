@@ -16,10 +16,10 @@
 
 .center-div-wrapper{
 	margin: 0 auto;
-	width: 60%;
+	width: 90%;
 }
 
-.album-information, #tracklist, #order-tracklist{
+.album-information, #tracklist, #order-tracklist, #player{
 	margin-left: 2%;
 }
 
@@ -38,6 +38,17 @@
 #lyrics{
 	width: 35%;
 	min-width: 500px;
+}
+
+#player{
+	height: 300px;
+	width: 30%;
+	min-width: 100px;
+}
+
+#player iframe{
+	height: 100%;
+	width: 100%;
 }
 
 #lyrics table{

@@ -1,0 +1,53 @@
+.film-holder{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid black;
+	display: table;
+	float: left;
+	box-shadow: 0.5px 1px 2px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+
+}
+
+.film-holder a{
+	display: table-cell;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 2%;
+	font-size: 0px;
+}
+
+.film-holder:hover a{
+	font-size: 20px;
+}
+
+.film-holder:hover{
+	background-position:-200px;
+	background-color: white;
+}
+
+.category{
+	margin-left: 20px;
+	text-decoration: underline;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.grid-container{
+	width: calc(90%);
+	margin: 0 auto;
+	margin-left: 20px;
+	max-height: 750px;
+	overflow-y: auto;
+	margin-bottom: 10px;
+}
+
+h2{
+	width: 100%;
+	text-align: center;
+}

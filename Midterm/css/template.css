@@ -7,31 +7,36 @@
 	border-style: none;
 }
 
+button:focus {
+    outline: none;
+}
+
 nav a, nav .dropdown{
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-weight: bold;
 	margin: 15px;
 	display: inline-block;
 }
 
-nav a:hover, nav .dropdown:hover, .dropdown:focus, .music:hover, .music:focus{
-	color: 	#b5ae70;
+nav a:hover, nav .dropdown:hover,.music:hover{
+	color: 	#f26f07;
 }
 
 nav {
 	font-size: 30px;
 	padding: 0px 50px 0px 0px;
-	background-color: black;
 	margin-bottom: 20px;
 	text-align: right;
-	margin-left: 55%;
+	float:right;
+	clear: both;
+	width: 100%;
 	min-width: 700px;
 }
 
 .music{
-	background-color: transparent;
-	color: white;
+	background-color: white;
+	color: black;
 
 }
 
@@ -43,10 +48,10 @@ nav {
 
 .dropdown-content{
 	display: none;
+	background-color: white;
 	position: absolute;
 	min-width: 100px;
 	z-index: 1;
-	background-color: black;
 	border: 1px solid black;
 	font-weight: normal;
 	font-size: 20px;
@@ -83,7 +88,7 @@ nav {
 }
 
 #logo{
-	background-image: url('images/Glover.png');
+	background-image: url('../images/Glover.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 60px;
@@ -93,14 +98,17 @@ nav {
 }
 
 #logo:hover{
-	background-image: url('images/Gambino.png');
+	background-image: url('../images/Gambino.png');
 }
 
 #logo-holder{
 	border-bottom: 1px solid black;
 	margin-top: 35px;
-	width: 80%;
-	max-width: 850px;
-	margin-left: 100px;
-	margin-bottom: -1.5px;
+	width: calc(100%-30px);
+	margin-left: 30px;
+	margin-bottom: 0px;
+}
+
+body{
+	overflow-y: auto;
 }
