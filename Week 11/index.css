@@ -1,0 +1,13 @@
+.ball{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
+
+body{
+	overflow-x: none;
+	overflow-y: none;
+}
