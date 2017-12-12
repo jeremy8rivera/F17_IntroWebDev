@@ -28,7 +28,7 @@ $(window).scroll(function(){
 	var skillOuterHeight = $("#skill-section").outerHeight();
 	var wH = $(window).height();
 	var wS = $(this).scrollTop();
-	if ((wS > (skillOffTop + skillOuterHeight - wH)) && scrollCounter == 0){
+	if ((wS > (skillOffTop + skillOuterHeight - wH)/2) && scrollCounter == 0){
 		$("#html .progress .progress-bar").animate({width: "80%"}, 2000);
 		$("#office .progress .progress-bar").animate({width: "75%"}, 2000);
 		$("#cplus .progress .progress-bar").animate({width: "73%"}, 2000);
